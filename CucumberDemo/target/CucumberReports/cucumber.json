@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-31T07:19:11.216Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4232000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.login.browseropen()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Validate user login with different credentials",
+        "description": "",
+        "id": "login--feature;validate-user-login-with-different-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.login.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39689000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user open browser",
+            "match": {
+              "location": "stepdefs.login.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat stepdefs.login.user_enter_credentails(login.java:48)\r\n\tat ✽.user enter credentails(file:///G:/CucumberDemo/src/test/java/features/login.feature:48)\r\n",
+              "duration": 9093000000,
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "user enter credentails",
+            "match": {
+              "location": "stepdefs.login.user_enter_credentails()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "login  feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "login--feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

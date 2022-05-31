@@ -45,7 +45,6 @@ public class login extends base {
 		Thread.sleep(4000);
 
 		lp.Login().click();
-		Assert.fail();
 	}
 
 	

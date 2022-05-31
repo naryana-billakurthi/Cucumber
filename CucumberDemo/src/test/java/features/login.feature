@@ -46,7 +46,7 @@ Scenario: Validate user login with different credentials
 
 Given user open browser
 When user enter credentails
-
+@Regression
 Scenario Outline: Validate user login with different credentials
 
 Given user open browser
